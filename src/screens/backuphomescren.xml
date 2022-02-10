@@ -1,0 +1,14 @@
+ <Col>
+            <Row height={40}>
+                <Col justifyCenter>
+                    <ScaledText>{props.data.surah_id}</ScaledText>
+                </Col>
+                <Col size={3} justifyCenter>
+                    <ScaledText>{props.data.surah_name}</ScaledText>
+                    <ScaledText>{`${props.data.surah_verse_count} ayat`}</ScaledText>
+                </Col>
+                <Col size={3} justifyCenter alignEnd>
+                    <ScaledText>{props.data.surah_name_arabic}</ScaledText></Col>
+            </Row>
+
+        </Col>
